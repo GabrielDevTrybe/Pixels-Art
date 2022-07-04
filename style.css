@@ -1,0 +1,32 @@
+#box1 {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  background-color: black;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  background-color: blue;
+}
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  background-color: green;
+}
+
+#box4 {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  background-color: yellow;
+}
+
+#color-palette div {
+  display: inline-block;
+}
+
