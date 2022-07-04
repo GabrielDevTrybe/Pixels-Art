@@ -30,3 +30,30 @@
   display: inline-block;
 }
 
+.pixel {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border: solid 1px black;
+}
+
+#conteiner-px1 .pixel {
+  display: inline-block;
+}
+
+#conteiner-px2 .pixel {
+  display: inline-block;
+}
+
+#conteiner-px3 .pixel {
+  display: inline-block;
+}
+
+#conteiner-px4 .pixel {
+  display: inline-block;
+}
+
+#conteiner-px5 .pixel {
+  display: inline-block;
+}
+
