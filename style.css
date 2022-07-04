@@ -37,6 +37,11 @@
   border: solid 1px black;
 }
 
+.selected {
+  background-color: black;
+}
+
+
 #conteiner-px1 .pixel {
   display: inline-block;
 }
@@ -56,4 +61,3 @@
 #conteiner-px5 .pixel {
   display: inline-block;
 }
-
