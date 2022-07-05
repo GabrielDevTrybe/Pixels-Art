@@ -42,6 +42,14 @@
   background-color: black;
 }
 
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
 
 #conteiner-px1 .pixel {
   display: inline-block;

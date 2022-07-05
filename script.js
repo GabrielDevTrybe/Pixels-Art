@@ -2,6 +2,7 @@ const firstColor = document.getElementsByClassName('color')[0]
 const secondColor = document.getElementsByClassName('color')[1]
 const thirdColor = document.getElementsByClassName('color')[2]
 const fourthColor = document.getElementsByClassName('color')[3]
+const allPalets = document.getElementsByClassName('selected')
 const pixels1 = document.getElementsByClassName('pixel')[0];
 const pixels2 = document.getElementsByClassName('pixel')[1];
 const pixels3 = document.getElementsByClassName('pixel')[2];
@@ -99,7 +100,7 @@ function addColorBlack() {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
     }
-    pixels1.classList.add('color')
+    pixels1.classList.add('black')
   })
 
 
@@ -108,7 +109,7 @@ function addColorBlack() {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
     }
-    pixels2.classList.add('color')
+    pixels2.classList.add('black')
   })
 
 
@@ -120,7 +121,7 @@ function addColorBlack() {
       position5.classList.remove('selected')
 
     }
-    pixels3.classList.add('color')
+    pixels3.classList.add('black')
   })
 
   pixels4.addEventListener('click', function () {
@@ -129,7 +130,7 @@ function addColorBlack() {
       position5.classList.remove('selected')
 
     }
-    pixels4.classList.add('color')
+    pixels4.classList.add('black')
 
 
 
@@ -137,12 +138,12 @@ function addColorBlack() {
   })
 
   pixels5.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels5.classList.add('color')
+    pixels5.classList.add('black')
 
   })
 
@@ -152,178 +153,178 @@ function addColorBlack() {
       position5.classList.remove('selected')
 
     }
-    pixels6.classList.add('color')
+    pixels6.classList.add('black')
   })
 
   pixels7.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels7.classList.add('color')
+    pixels7.classList.add('black')
   })
 
   pixels8.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels8.classList.add('color')
+    pixels8.classList.add('black')
   })
 
   pixels9.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels9.classList.add('color')
+    pixels9.classList.add('black')
   })
 
   pixels10.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels10.classList.add('color')
+    pixels10.classList.add('black')
   })
 
   pixels11.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels11.classList.add('color')
+    pixels11.classList.add('black')
   })
 
   pixels12.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels12.classList.add('color')
+    pixels12.classList.add('black')
   })
 
   pixels13.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels13.classList.add('color')
+    pixels13.classList.add('black')
   })
 
   pixels14.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels14.classList.add('color')
+    pixels14.classList.add('black')
   })
 
   pixels15.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels15.classList.add('color')
+    pixels15.classList.add('black')
   })
 
   pixels16.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels16.classList.add('color')
+    pixels16.classList.add('black')
   })
 
   pixels17.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels17.classList.add('color')
+    pixels17.classList.add('black')
   })
 
   pixels18.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels18.classList.add('color')
+    pixels18.classList.add('black')
   })
 
   pixels19.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels19.classList.add('color')
+    pixels19.classList.add('black')
   })
 
   pixels20.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels20.classList.add('color')
+    pixels20.classList.add('black')
   })
 
   pixels21.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels21.classList.add('color')
+    pixels21.classList.add('black')
   })
 
   pixels22.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels22.classList.add('color')
+    pixels22.classList.add('black')
   })
 
   pixels23.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels23.classList.add('color')
+    pixels23.classList.add('black')
   })
 
   pixels24.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels24.classList.add('color')
+    pixels24.classList.add('black')
   })
 
   pixels25.addEventListener('click', function () {
-    for(let index = 0; index < allpixels.length; index += 1){
+    for (let index = 0; index < allpixels.length; index += 1) {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
-      
+
     }
-    pixels25.classList.add('color')
+    pixels25.classList.add('black')
   })
 
 
@@ -338,3 +339,88 @@ addColorBlack()
 //////////////////////////////////////
 
 
+  
+
+
+
+
+   
+   
+/////////////////////////////////////////
+
+
+
+function allColorsBlack() {
+  firstColor.addEventListener('click', function () {
+    firstColor.classList.add('black')
+    secondColor.classList.remove('blue')
+    thirdColor.classList.remove('green')
+    fourthColor.classList.remove('yellow')
+
+  })
+ 
+  
+    }
+
+
+
+allColorsBlack()
+
+
+
+
+
+function allColorsBlue() {
+  secondColor.addEventListener('click', function () {
+    secondColor.classList.add('blue')
+    firstColor.classList.remove('black')
+
+    thirdColor.classList.remove('green')
+
+    fourthColor.classList.remove('yellow')
+
+
+  })
+
+
+
+}
+
+
+
+allColorsBlue()
+
+
+
+function allColorsGreen() {
+  thirdColor.addEventListener('click', function () {
+    thirdColor.classList.add('green')
+    firstColor.classList.remove('black')
+
+    secondColor.classList.remove('blue')
+
+    fourthColor.classList.remove('yellow')
+
+
+  })
+}
+
+allColorsGreen()
+
+
+function allColorsYellow() {
+  fourthColor.addEventListener('click', function () {
+    fourthColor.classList.add('yellow')
+    firstColor.classList.remove('black')
+
+    secondColor.classList.remove('blue')
+
+    thirdColor.classList.remove('green')
+
+
+  })
+
+  
+}
+
+allColorsYellow()
