@@ -99,7 +99,7 @@ function addColorBlack() {
       let position5 = allpixels[index]
       position5.classList.remove('selected')
     }
-    pixels1.classList.add('box1')
+    pixels1.classList.add('color')
   })
 
 
