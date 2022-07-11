@@ -70,3 +70,13 @@
 #conteiner-px5 .pixel {
   display: inline-block;
 }
+
+.conteiner-all {
+  width: 500px;
+  text-align: center;
+}
+
+.botao {
+  margin: 20px;
+}
+
